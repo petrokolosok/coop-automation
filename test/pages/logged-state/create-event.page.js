@@ -1,5 +1,7 @@
 import { assert } from 'chai';
-import sel from '../../selectors/selectors';
+import sel from '../../selectors/create-event.page';
+import exp from '../../expected/create-event.page';
+
 
 
 describe('Create Event', function () {
