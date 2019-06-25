@@ -17,8 +17,11 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/reg/client.js',
-        //'./test/reg/login.js'
+        //'./test/specs/reg/client.js',
+        //'./test/specs/reg/login.js'
+        './test/pages/logged-state/create-event.page.js'
+
+
     ],
     // Patterns to exclude.
     exclude: [
@@ -89,7 +92,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://reactbugtracker.com',
+    baseUrl: 'https://www.cooperator.us/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
