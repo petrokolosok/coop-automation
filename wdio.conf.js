@@ -20,7 +20,8 @@ exports.config = {
         //'./test/specs/reg/client.js',
         //'./test/specs/reg/login.js'
         //'./test/pages/logged-state/create-event.page.js',
-        './test/pages/home.page.js'
+       // './test/pages/home.page.js',
+        './test/pages/logged-state/create-group.page.js'
 
 
     ],
